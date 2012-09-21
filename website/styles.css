@@ -5,12 +5,47 @@
   margin : 20px auto;
 }
 
+div#header {
+  display: block;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+div#sidebar-left {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+div#face-image img {
+  display: block;
+  width: 25%;
+  height: 25%;
+}
 
 div#nav-menu {
+  background-color: #888888;
   margin-left: auto;
   margin-right: auto;
   display : block;
   width : 820px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.block-links-vertical {
+  margin: 0;
+  padding: 0;
+}
+
+.block-links-vertical li {
+  display: block;
+  height: 15%;
+  background-color: #dd3300;
+  border : 1px solid #000033;
+  width: 25%;
+  margin: 0;
+  padding: 0;
 }
 
 ul#nav-links {
@@ -23,6 +58,7 @@ ul#nav-links {
 ul#nav-links li {
   display : inline;
   margin: 4.5%;
+  color: #eeeeee;
 /*  float : left;
   padding : 0 10px;
   margin : 0 5px;
