@@ -1,3 +1,5 @@
+/*@dark_red = #760000;*/
+
 #wrapper {
   width : 820px;
   /*background : #fff url(images/wrapper.jpg) repeat-y; /* CHANGED/ADDED THIS */
@@ -41,7 +43,7 @@ div#nav-menu {
 .block-links-vertical li {
   display: block;
   height: 15%;
-  background-color: #dd3300;
+  background-color: #760000;
   border : 1px solid #000033;
   width: 25%;
   margin: 0;
