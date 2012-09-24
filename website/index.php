@@ -5,7 +5,10 @@
   <body>
     <div id="wrapper">
       <?php include 'header.html'; ?>
-      <?php include 'sidebar_left.html'; ?>
+      <div id="middle-wrapper">
+        <?php include 'sidebar_left.html'; ?>
+        <?php include 'content.html'; ?>
+      </div>
     </div>
   </body>
 </html>
