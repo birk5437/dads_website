@@ -8,6 +8,7 @@
       <div id="middle-wrapper">
         <?php include 'sidebar_left.html'; ?>
         <?php include 'content.html'; ?>
+        <?php include 'sidebar_right.html'; ?>
       </div>
     </div>
   </body>
