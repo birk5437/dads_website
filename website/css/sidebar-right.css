@@ -1,0 +1,7 @@
+div#sidebar-right {
+  float: right;
+  display: inline;
+  width: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
