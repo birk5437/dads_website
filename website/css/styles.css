@@ -77,6 +77,10 @@ div#nav-menu {
   padding: 0;*/
 }
 
+.block-links-vertical a {
+  color: #cccccc;
+}
+
 ul#nav-link{
   padding : 5px 0;
   height : 1.4em;
