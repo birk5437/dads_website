@@ -1,4 +1,4 @@
 <?php
-  $content_page = 'content/home.html';
+  $content_page = 'private/content/home.html';
   include 'wrapper.php';
 ?>

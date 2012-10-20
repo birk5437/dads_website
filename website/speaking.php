@@ -1,4 +1,4 @@
 <?php
-  $content_page = 'content/speaking.html';
+  $content_page = 'private/content/speaking.html';
   include 'wrapper.php';
 ?>

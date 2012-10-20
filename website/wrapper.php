@@ -1,4 +1,8 @@
-<?php include 'vars.php'; ?>
+<?php
+  session_start(); /// initialize session 
+  include("private/check.php"); 
+  check_logged(); /// function checks if visitor is logged.
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,14 +11,16 @@
   </head>
     <body>
       <div id="wrapper" class="container">
-        <?php include 'templates/header.html'; ?>
+        <?php include 'private/header.html'; ?>
         <div id="middle-wrapper">
-          <?php include 'templates/sidebar_left.html'; ?>
-          <?php include $content_page; ?>
-          <?php include 'templates/sidebar_right.html'; ?>
+          <?php include 'private/sidebar_left.html'; ?>
+          <div id="content">
+            <?php include $content_page; ?>
+          </div>
+          <?php include 'private/sidebar_right.html'; ?>
       </div>
     </div>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
