@@ -1,7 +1,7 @@
 <?php
-  session_start(); /// initialize session 
-  include("private/check.php"); 
-  check_logged(); /// function checks if visitor is logged.
+  // session_start();
+  // include("private/check.php");
+  // check_logged();
 ?>
 <!DOCTYPE html>
 <html lang="en">

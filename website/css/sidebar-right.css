@@ -1,4 +1,6 @@
 div#sidebar-right {
+  background-color: #760000;
+  height: 100%;
   float: right;
   display: inline;
   width: 25%;
