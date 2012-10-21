@@ -33,7 +33,7 @@ div#face-image img {
   /*padding: auto auto;*/
 }
 
-li#speaking { background-image: url('/images/block_link_background.png'); }
+li#speaking { background-image: url('../images/block_link_background.png'); }
 
 .block-links-vertical li p {
   text-align: center;
