@@ -1,7 +1,6 @@
 <?php
-$USERS["burke"] = "test";
-$USERS["username2"] = "password2";
-$USERS["username3"] = "password3";
+$USERS["birk5437"] = "123qweasdzxc";
+$USERS["tenoclock42"] = "123qweasdzxc";
 
 function check_logged(){
      global $_SESSION, $USERS;

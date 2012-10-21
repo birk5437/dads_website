@@ -1,7 +1,7 @@
 <?php
-  // session_start();
-  // include("private/check.php");
-  // check_logged();
+  session_start();
+  include("private/check.php");
+  check_logged();
 ?>
 <!DOCTYPE html>
 <html lang="en">
