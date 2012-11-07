@@ -33,6 +33,10 @@ div#face-image img {
   /*padding: auto auto;*/
 }
 
+.block-links-vertical > :last-child {
+  border-bottom: 5px solid #ffffff;
+}
+
 li#speaking { background-image: url('../images/block_link_background.png'); }
 
 .block-links-vertical li p {
