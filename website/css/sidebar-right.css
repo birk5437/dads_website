@@ -1,9 +1,30 @@
 div#sidebar-right {
   background-color: #760000;
-  height: 100%;
+  height: 90%;
   float: right;
   display: inline;
   width: 25%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div#sidebar-right-inner {
+  background-color: #870000;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 90%;
+}
+
+div#sidebar-right-inner p {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ffffff;
+  align: right;
+}
+
+img#book-image {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
