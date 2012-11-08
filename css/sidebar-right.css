@@ -1,5 +1,11 @@
 div#sidebar-right {
-  background-color: #760000;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: #760000;
+  border-width: 20px;
+  background-color: #870000;
   height: 90%;
   float: right;
   display: inline;
@@ -9,17 +15,15 @@ div#sidebar-right {
 }
 
 div#sidebar-right-inner {
-  background-color: #870000;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  height: 90%;
+  padding-top: 20%;
 }
 
 div#sidebar-right-inner p {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: #ffffff;
-  align: right;
+  text-align: right;
+  font-weight: lighter;
 }
 
 img#book-image {
