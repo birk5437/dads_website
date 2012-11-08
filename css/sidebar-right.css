@@ -27,8 +27,19 @@ div#sidebar-right-inner p {
 }
 
 img#book-image {
-  width: 70%;
-  margin-left: auto;
+  -webkit-transform:rotate(-10deg);
+  -o-transform:rotate(-10deg);
+  -ms-transform:rotate(-10deg);
+  -moz-transform:rotate(-10deg);
+  width: 80%;
+  margin-left: 10px;
+  /*margin-right: auto;*/
+  display: block;
+}
+
+a#buy-book-link {
   margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   display: block;
 }
