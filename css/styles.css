@@ -54,7 +54,7 @@ div#content {
   color: inherit;
 }*/
 
-h2#titlepage-name {
+h2 {
   /*text-align: right;*/
   margin-right: 2%;
   margin-left: 2%;
@@ -67,7 +67,7 @@ h2#titlepage-name {
 
 div#content p {
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 6%;
   font-family: serif;
 }
 
