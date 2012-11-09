@@ -46,9 +46,28 @@ div#content {
   display: inline;
 }
 
+/*span#homepage-name {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+}*/
+
+h2#titlepage-name {
+  text-align: right;
+  margin-right: 2%;
+/*  font-size: 30px;
+  line-height: 40px;*/
+  font-family: serif;
+/*  font-weight: bold;
+  color: inherit;*/
+}
+
 div#content p {
   margin-left: 2%;
   margin-right: 2%;
+  font-family: serif;
 }
 
 div#nav-menu {
