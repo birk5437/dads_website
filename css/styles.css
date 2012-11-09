@@ -55,19 +55,20 @@ div#content {
 }*/
 
 h2#titlepage-name {
-  text-align: right;
+  /*text-align: right;*/
   margin-right: 2%;
+  margin-left: 2%;
 /*  font-size: 30px;
-  line-height: 40px;*/
+  line-height: 40px;
   font-family: serif;
-/*  font-weight: bold;
+  font-weight: bold;
   color: inherit;*/
 }
 
 div#content p {
   margin-left: 2%;
   margin-right: 2%;
-  /*font-family: serif;*/
+  font-family: serif;
 }
 
 div#nav-menu {
