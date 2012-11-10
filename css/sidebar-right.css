@@ -15,7 +15,7 @@ div#sidebar-right {
 }
 
 div#sidebar-right-inner {
-  padding-top: 20%;
+  padding-top: 60%;
 }
 
 div#sidebar-right-inner p {
@@ -32,9 +32,10 @@ img#book-image {
   -ms-transform:rotate(-10deg);
   -moz-transform:rotate(-10deg);
   width: 80%;
-  margin-left: 10px;
+  /*margin-left: 5px;*/
   /*margin-right: auto;*/
   display: block;
+  margin-top: 30%;
 }
 
 a#buy-book-link {

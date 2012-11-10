@@ -1,5 +1,10 @@
 /*@dark_red = #760000;*/
 
+.shadow {
+  /*box-shadow: 3px 3px 4px #000033;*/
+  box-shadow: 4px 3px 5px #222222;
+}
+
 #wrapper {
   width : 820px;
   /*background : #fff url(images/wrapper.jpg) repeat-y; /* CHANGED/ADDED THIS */
