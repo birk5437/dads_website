@@ -10,6 +10,8 @@
   /*background : #fff url(images/wrapper.jpg) repeat-y; /* CHANGED/ADDED THIS */
   border : 1px solid #000033;
   margin : 20px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #middle-wrapper{
   width: 100%;
@@ -23,13 +25,13 @@ a {
 
 
 /*Override Nav Pills*/
-/*.nav-pills > .active > a,
+.nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: #ffffff;
   background-color: #0088cc;
 }
 
-.nav > li > a:hover {
+/*.nav > li > a:hover {
   text-decoration: none;
   background-color: #760000;
 }*/
@@ -86,8 +88,6 @@ div#nav-menu {
   padding: 0;
 }
 
-
-
 ul#nav-link{
   padding : 5px 0;
   height : 1.4em;
@@ -95,12 +95,11 @@ ul#nav-link{
 
 }
 
-ul#nav-link li {
-  /*display : inline;*/
-  margin: 4.1%;
+ul#nav-links li {
+  width: 20%;
   color: #eeeeee;
-/*  float : left;
-  padding : 0 10px;
-  margin : 0 5px;
-*/
+}
+
+ul#nav-links li a{
+  text-align: center;
 }
