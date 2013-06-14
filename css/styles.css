@@ -5,8 +5,18 @@
   box-shadow: 4px 3px 5px #222222;
 }
 
+#logo-top {
+  height: 61px;
+  background-color: #082E66;
+}
+#name-box {
+  background-color: #0088cc;
+  width: 11%;
+  height: 100%;
+}
+
 #wrapper {
-  width : 820px;
+  /*width : 820px;*/
   /*background : #fff url(images/wrapper.jpg) repeat-y; /* CHANGED/ADDED THIS */
   border : 1px solid #000033;
   margin : 20px auto;
