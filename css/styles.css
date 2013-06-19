@@ -9,10 +9,16 @@
   height: 61px;
   background-color: #082E66;
 }
-#name-box {
-  background-color: #0088cc;
+.name-box {
+  background-image: url('../images/john_logo.png');
+  /*background-color: #0088cc;*/
   width: 11%;
   height: 100%;
+}
+
+.color-bar {
+  height: 3px;
+  background-image: url('../images/color_bar.png');
 }
 
 #wrapper {
