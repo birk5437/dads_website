@@ -18,7 +18,8 @@
             <?php include $content_page; ?>
           </div>
           <?php include 'private/sidebar_right.html'; ?>
-          <?php include 'private/footer.html'; ?>
+        </div>
+        <?php include 'private/footer.html'; ?>
       </div>
     </div>
     <script src="jquery.js"></script>
